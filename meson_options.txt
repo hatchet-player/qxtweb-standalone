@@ -46,7 +46,6 @@ option(
         '-lQt5Sql',
         '-lQt5Svg',
         '-lQt5UiTools',
-        '-lQt5WebKitWidgets',
         '-lQt5Widgets',
         '-lQt5Xml'],
     description : 'link args for Qt5',
