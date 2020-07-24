@@ -12,7 +12,8 @@ project(
     'qt5-certificate-addon',
     ['c', 'cpp'],
     default_options : [
-        'cpp_std=c++11',
+        'c_std=c14',
+        'cpp_std=c++14',
         'warning_level=3',
         'optimization=3',
         'debug=true'
