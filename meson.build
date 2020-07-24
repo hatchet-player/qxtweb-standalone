@@ -9,7 +9,7 @@
 # init project
 #-------------------------------------------------
 project(
-    'qt5-certificate-addon',
+    'qxtweb-standalone',
     ['c', 'cpp'],
     default_options : [
         'c_std=c14',
