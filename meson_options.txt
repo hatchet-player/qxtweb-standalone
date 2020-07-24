@@ -18,7 +18,8 @@ option(
     'cxxflags',
     type : 'array',
     value : [
-        '-Wdeprecated', 
+        '-Wno-deprecated',
+        '-Wno-deprecated-declarations',
         '-Wno-non-virtual-dtor',
         '-Wno-unused-parameter'],
     description : 'C build flags')
