@@ -12,7 +12,6 @@ project(
     'qxtweb-standalone',
     ['c', 'cpp'],
     default_options : [
-        'c_std=c14',
         'cpp_std=c++14',
         'warning_level=3',
         'optimization=3',
