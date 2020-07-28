@@ -4,6 +4,7 @@
 # compiler args
 #============================================================================
 
+
 option(
     'ldflags',
     type : 'array',
@@ -18,11 +19,13 @@ option(
     'cxxflags',
     type : 'array',
     value : [
+        '-std=c++14',
         '-Wno-deprecated',
         '-Wno-deprecated-declarations',
         '-Wno-non-virtual-dtor',
         '-Wno-unused-parameter'],
     description : 'C build flags')
+
 
 option(
     'with_tests',
@@ -30,6 +33,7 @@ option(
     value : 'false',
     description : 'Build tomahawk with tests',
     yield : true)
+
 
 # link args
 #============================================================================
@@ -60,6 +64,3 @@ option(
     description : 'link args for Qt5',
     yield : true)
 
-
-# optional dependancies
-#============================================================================
